@@ -91,7 +91,7 @@ Desenvolva uma aplicação **React** que seja composta por um `conjunto de compo
 ## Antes de começar a desenvolver
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-012-project-movie-cards-library.git`.
+  * `git clone git@github.com:tryber/sd-012-project-movie-cards-library.git`.
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd sd-012-project-movie-cards-library`
 

@@ -2,6 +2,7 @@ body {
   background-color: whitesmoke;
   box-sizing: border-box;
   font-size: 16px;
+  margin: 0;
 }
 
 .movie-card-header {
@@ -28,11 +29,12 @@ body {
 .movie-card {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 3px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgb(39, 38, 38);
   display: flex;
   flex-direction: column;
   height: 450px;
-  margin: 5px;
+  margin: 10px;
   overflow: hidden;
   width: 300px;
 }

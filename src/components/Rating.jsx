@@ -5,7 +5,7 @@ class Rating extends Component {
   render() {
     const { rating } = this.props;
     return (
-      <div>
+      <div className="movie-card-rating">
         <p className="rating">{rating}</p>
       </div>
     );

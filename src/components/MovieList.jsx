@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { array } from 'prop-types';
+import { arrayOf, objectOf } from 'prop-types';
 import MovieCard from './MovieCard';
 
 class MovieList extends Component {
@@ -7,14 +7,14 @@ class MovieList extends Component {
     const { movies } = this.props;
     return (
       <div>
-        {movies.map((movie) => <MovieCard movie={ movie } key={ movies.title } />)}
+        {movies.map((movie) => <MovieCard movie={ movie } key={ movie.title } />)}
       </div>
     );
   }
 }
 
 MovieList.propTypes = {
-  movies: array.shape,
+  movies: arrayOf(objectOf),
 };
 
 MovieList.defaultProps = ['object'];

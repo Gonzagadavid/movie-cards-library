@@ -395,7 +395,7 @@ O componente `<App />` deve renderizar um componente `<MovieList />`, passando c
 
 **O que será verificado:**
 
-  - Renderize `<MovieList />` dentro do componente `<App />``
+  - Renderize `<MovieList />` dentro do componente `<App />`
 
 ### 17 - Adicione PropTypes a todos os componentes
 

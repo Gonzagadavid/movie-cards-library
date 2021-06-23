@@ -99,7 +99,7 @@ Desenvolva uma aplicação **React** que seja composta por um `conjunto de compo
   * Instale as dependências:
     * `npm install`
     
-    ATENÇÃO :atenção:: Não rode o comando npm audit fix! Ele atualiza várias dependências do projeto, e essa atualização gera conflitos com o avaliador.
+    ⚠️ **ATENÇÃO** Não rode o comando npm audit fix! Ele atualiza várias dependências do projeto e essa atualização gera conflitos com o avaliador. ⚠️
 
   * Inicialize o projeto:
     * `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
